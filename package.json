@@ -39,7 +39,15 @@
         "q": "^1.5.1",
         "rand-token": "^1.0.1",
         "swagger-autogen": "^2.7.1",
-        "swagger-ui-express": "^4.1.6"
+        "swagger-ui-express": "^4.1.6",
+        "chai": "^4.3.4",
+        "faker": "^5.4.0",
+        "mocha": "^8.3.2",
+        "mongoose-seed": "^0.6.0",
+        "ndb": "^1.1.5",
+        "nodemon": "^2.0.4",
+        "stripe": "^8.97.0",
+        "validator": "^13.1.1"
     },
     "devDependencies": {
         "chai": "^4.3.4",
