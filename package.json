@@ -1,0 +1,59 @@
+{
+    "name": "endexel",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "mocha --reporter spec --exit",
+        "dev": "nodemon server.js",
+        "debug": "ndb server.js",
+        "seed": "node seeders.js",
+        "swagger-autogen": "node swagger.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cloudinary": "^1.23.0",
+        "cors": "^2.8.5",
+        "datauri": "^3.0.0",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.1.6",
+        "email-templates": "^8.0.4",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.10.5",
+        "mongoose-to-swagger": "^1.2.0",
+        "mongoose-unique-validator": "^2.0.3",
+        "multer": "^1.4.2",
+        "nodemailer": "^6.5.0",
+        "nodemailer-smtp-transport": "^2.7.4",
+        "passport": "^0.4.1",
+        "passport-facebook": "^3.0.0",
+        "passport-google-oauth20": "^2.0.0",
+        "passport-jwt": "^4.0.0",
+        "passport-local": "^1.0.0",
+        "q": "^1.5.1",
+        "rand-token": "^1.0.1",
+        "swagger-autogen": "^2.7.1",
+        "swagger-ui-express": "^4.1.6"
+    },
+    "devDependencies": {
+        "chai": "^4.3.4",
+        "faker": "^5.4.0",
+        "mocha": "^8.3.2",
+        "mongoose-seed": "^0.6.0",
+        "ndb": "^1.1.5",
+        "nodemon": "^2.0.4",
+        "stripe": "^8.97.0",
+        "validator": "^13.1.1"
+    },
+    "mocha": {
+        "spec": [
+            "__test__/**.spec.js"
+        ]
+    }
+}
